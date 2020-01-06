@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2D0A35"
+        tools:context=".Register">
+
+
+    <Button
+            android:id="@+id/button4"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="96dp"
+            android:layout_marginBottom="71dp"
+            android:background="@android:color/black"
+            android:text="Existing user? Login Now!" />
+
+    <com.google.android.material.textfield.TextInputLayout
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_above="@+id/signup_reg"
+            android:layout_marginBottom="159dp"
+            android:hint="Email Address">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mail_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_above="@+id/signup_reg"
+            android:layout_marginBottom="90dp"
+            android:hint="Password">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:password="true"
+                android:singleLine="true"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+            android:id="@+id/signup_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="168dp"
+            android:layout_marginBottom="136dp"
+            android:background="@android:color/black"
+            android:text="Signup" />
+
+    <com.google.android.material.textfield.TextInputLayout
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_above="@+id/signup_reg"
+            android:layout_marginBottom="228dp"
+            android:hint="Name">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</RelativeLayout>

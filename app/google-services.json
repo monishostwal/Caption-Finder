@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "526478985303",
+    "firebase_url": "https://caption-finder.firebaseio.com",
+    "project_id": "caption-finder",
+    "storage_bucket": "caption-finder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526478985303:android:6331386ee651a14b1a3b12",
+        "android_client_info": {
+          "package_name": "com.example.captionfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526478985303-dt1p4b9s7rc10vd5fd0do2mr8c4ahdrd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.captionfinder",
+            "certificate_hash": "e5aa641fb98efa302d5b202be4b0168c5aa89577"
+          }
+        },
+        {
+          "client_id": "526478985303-d13j20e7vdjcfke8ec9a0g8ssjg8g2l7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoIaIvbj1Ee7K2OhJcqBY5gC4fy9ZGIC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526478985303-d13j20e7vdjcfke8ec9a0g8ssjg8g2l7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
