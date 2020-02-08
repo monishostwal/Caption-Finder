@@ -49,7 +49,7 @@ class DatabaseHelper(var ctx: Context) :
 
     private fun modify_list(list: ArrayList<String>): ArrayList<String> {
         var map:HashMap<String,String> = hashMapOf("Animal" to "animal","Pet" to "animal","Cat" to "cat","Dog" to "dog","Hair" to "hair","Eyelash" to "eyes","Smile" to "smile","Skin" to "skin","Hat" to "hat","Community" to "group","Mouth" to "skin","Interaction" to "group","Crowd" to "group","Event" to "music","Concert" to "music","Jeans" to "fashion","Shirt" to "fashion","Sari" to "fashion","Denim" to "fashion","Pocket" to "fashion",
-            "Nature" to "nature","Sky" to "nature","Mountain" to "mountain","Winter" to "winter","Ice" to "winter","Plant" to "nature","Flower" to "flower","Plant" to "flower","Petal" to "Flower","Fun" to "fun","Leisure" to "fun","Car" to "car","Vehicle" to "car","Monument" to "monument","Building" to "monument","Statue" to "monument","Food" to "food","Icing" to "food","cool" to "winter","Vacation" to "vacation","Muscle" to "muscle","Swimming" to "swimming","Garden" to "Flower","Fire" to "winter","Christmas" to "Winter",
+            "Nature" to "nature","Sky" to "nature","Mountain" to "mountain","Winter" to "winter","Ice" to "winter","Plant" to "nature","Flower" to "flower","Plant" to "flower","Petal" to "flower","Fun" to "fun","Leisure" to "fun","Car" to "car","Vehicle" to "car","Monument" to "monument","Building" to "monument","Statue" to "monument","Food" to "food","Icing" to "food","cool" to "winter","Vacation" to "vacation","Muscle" to "muscle","Swimming" to "swimming","Garden" to "flower","Fire" to "winter","Christmas" to "winter",
             "Selfie" to "selfie","Glasses" to "glasses")
         var new_list=ArrayList<String>()
         new_list.add("general")

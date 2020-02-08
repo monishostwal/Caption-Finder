@@ -35,9 +35,7 @@ class MainActivity : AppCompatActivity() {
         }
         detect.setOnClickListener {
             detect_text()
-        }
-
-    }
+        }   }
 
     private fun checkpermission() {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
@@ -75,6 +73,7 @@ class MainActivity : AppCompatActivity() {
                 dbHelper.openDataBase();
                 var contList = dbHelper.find_list(list);
                 var list_of_Captions = Caption_Generator().findCaption(contList)
+                Log.d("monish_final_item",list_of_Captions.toString())
                 var i=Intent(this,CaptionShow::class.java)
                 i.putExtra("list_of_captions",list_of_Captions)
                 startActivity(i)

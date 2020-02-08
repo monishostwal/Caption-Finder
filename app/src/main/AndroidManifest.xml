@@ -9,7 +9,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".CaptionShow"></activity>
+
+        <activity android:name=".CaptionShow" />
 
         <meta-data
                 android:name="com.google.firebase.ml.vision.DEPENDENCIES"
@@ -18,11 +19,11 @@
         <activity
                 android:name=".MainActivity"
                 android:label="@string/title_activity_main"
-                android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Forgot_password"></activity>
-        <activity android:name=".Login"></activity>
-        <activity android:name=".Register"></activity>
-        <activity android:name=".Login_regsiter_both"></activity>
+                android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Forgot_password" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login_regsiter_both" />
         <activity
                 android:name=".Splash_Activity"
                 android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">

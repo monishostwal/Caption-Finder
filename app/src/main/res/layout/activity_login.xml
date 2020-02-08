@@ -44,8 +44,6 @@
     <!--            android:id="@+id/password_login" android:layout_alignParentBottom="true" android:layout_marginBottom="294dp"-->
     <!--            android:layout_alignParentEnd="true" android:layout_marginEnd="106dp" android:hint="Enter your password"-->
     <!--            android:password="true"/>-->
-
-
     <com.google.android.material.textfield.TextInputLayout
             style="@style/text"
             android:layout_width="match_parent"
